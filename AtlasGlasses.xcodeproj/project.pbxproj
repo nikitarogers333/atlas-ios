@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* AtlasGlassesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002; };
+		A10003 /* SensesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20003; };
+		A10004 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20004; };
+		A10005 /* AtlasWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20005; };
+		A10006 /* PushToTalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20006; };
+		A10007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30001; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20001 /* AtlasGlassesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasGlassesApp.swift; sourceTree = "<group>"; };
+		A20002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20003 /* SensesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensesClient.swift; sourceTree = "<group>"; };
+		A20004 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		A20005 /* AtlasWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasWebView.swift; sourceTree = "<group>"; };
+		A20006 /* PushToTalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushToTalkView.swift; sourceTree = "<group>"; };
+		A30001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A40001 /* AtlasGlasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlasGlasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60001 = {
+			isa = PBXGroup;
+			children = (
+				A60002 /* AtlasGlasses */,
+				A60004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60002 /* AtlasGlasses */ = {
+			isa = PBXGroup;
+			children = (
+				A20001 /* AtlasGlassesApp.swift */,
+				A20002 /* ContentView.swift */,
+				A20007 /* Info.plist */,
+				A60003 /* Services */,
+				A60005 /* Views */,
+				A30001 /* Assets.xcassets */,
+			);
+			path = AtlasGlasses;
+			sourceTree = "<group>";
+		};
+		A60003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20003 /* SensesClient.swift */,
+				A20004 /* AudioRecorder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A60004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40001 /* AtlasGlasses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20005 /* AtlasWebView.swift */,
+				A20006 /* PushToTalkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70001 /* AtlasGlasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80003 /* Build configuration list for PBXNativeTarget "AtlasGlasses" */;
+			buildPhases = (
+				A90001 /* Sources */,
+				A50001 /* Frameworks */,
+				AA0001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtlasGlasses;
+			productName = AtlasGlasses;
+			productReference = A40001 /* AtlasGlasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A70001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A80001 /* Build configuration list for PBXProject "AtlasGlasses" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60001;
+			productRefGroup = A60004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70001 /* AtlasGlasses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10007 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* AtlasGlassesApp.swift in Sources */,
+				A10002 /* ContentView.swift in Sources */,
+				A10003 /* SensesClient.swift in Sources */,
+				A10004 /* AudioRecorder.swift in Sources */,
+				A10005 /* AtlasWebView.swift in Sources */,
+				A10006 /* PushToTalkView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AtlasGlasses/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Atlas;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Atlas needs microphone access for push-to-talk voice commands.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikitarogers.AtlasGlasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AtlasGlasses/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Atlas;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Atlas needs microphone access for push-to-talk voice commands.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikitarogers.AtlasGlasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80001 /* Build configuration list for PBXProject "AtlasGlasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80002 /* Debug */,
+				A80004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80003 /* Build configuration list for PBXNativeTarget "AtlasGlasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80005 /* Debug */,
+				A80006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0001 /* Project object */;
+}
