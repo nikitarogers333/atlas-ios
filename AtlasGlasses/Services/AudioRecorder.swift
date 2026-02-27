@@ -83,7 +83,13 @@ final class AudioRecorder: ObservableObject {
                 if let result {
                     self?.transcribedText = result.bestTranscription.formattedString
                 }
-                if error != nil || (result?.isFinal ?? false) {
+                if let error {
+                    // Don't abort the entire app; surface the error and stop recording cleanly.
+                    self?.errorMessage = "Speech recognition error: \(error.localizedDescription)"
+                    self?.stopEngine()
+                    return
+                }
+                if result?.isFinal == true {
                     self?.stopEngine()
                 }
             }
